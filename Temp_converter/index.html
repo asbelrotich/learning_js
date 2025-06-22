@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Temprature conversion</h1>
+        <input type="number" id="textBox" value="0"><br>
+
+        <input type="radio" id="toFahrenheit" name="unit">
+        <label for="fareheint">Celsius &#8594 Fahrenheit </label><br>
+
+        <input type="radio" id="toCelsius" name="unit">
+        <label for="Celsius">Fahrenheit &#8594 Celsius</label><br>
+
+        <button type="button" onclick="convert()">submit</button>
+        <p id="result">select a unit</p>
+    </form>
+    <script src="idex.js"></script>
+    
+</body>
+</html>
